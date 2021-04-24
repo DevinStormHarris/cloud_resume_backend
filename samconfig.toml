@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "devinstormharriscloudresume"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-8g6dofp0l37g"
+s3_prefix = "devinstormharriscloudresume"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
